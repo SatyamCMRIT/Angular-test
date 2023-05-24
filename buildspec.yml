@@ -12,7 +12,7 @@ phases:
       
       # run the build
       - npm install --save-dev @angular-devkit/build-angular
-      - sudo ng build
+      - sudo npm run build
 artifacts:
   files:
     # bundle everything as a build artifact, except hidden files
