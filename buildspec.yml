@@ -5,13 +5,13 @@ phases:
     runtime-versions:
       nodejs: 18
     commands:
-      - npm install
-      - npm install -g @angular/cli@6.0.0
+      - sudo npm install
+      - sudo npm install -g @angular/cli@6.0.0
   build:
     commands:
       
       # run the build
-      - ng build --prod
+      - sudo ng build --prod
 artifacts:
   files:
     # bundle everything as a build artifact, except hidden files
