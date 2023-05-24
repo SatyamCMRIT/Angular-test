@@ -1,4 +1,4 @@
 #!/bin/bash
-mkdir -p /home/ec2-user/app/keys
-cp /home/ec2-user/keys/* /home/ec2-user/app/keys/
-chown -R ec2-user:ec2-user /home/ec2-user/app/keys
+sudo mkdir -p /home/ubuntu/app/keys
+sudo cp /home/ubuntu/keys/* /home/ubuntu/app/keys/
+sudo chown -R ubuntu:ubuntu /home/ubuntu/app/keys
